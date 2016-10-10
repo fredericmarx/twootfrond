@@ -1,12 +1,18 @@
 {
   "name": "twootfrond",
   "version": "1.0.0",
-  "description": "🎷🐦 Twoot your fronds!",
+  "description": "🎷🐦 Twoot your fronds from the command line",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [Twooter, Fronds, Twitter, Messaging],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "twitter": "^1.4.0"
+  },
+  "bin": {
+    "twootfrond": "index.js"
+  }
 }
